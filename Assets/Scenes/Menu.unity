@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 38945312}
   - component: {fileID: 38945313}
   m_Layer: 0
-  m_Name: SceneManager
+  m_Name: DataManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,11 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66cca007c47ac8740b7e1b8d3dd8d6c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <bestPlayer>k__BackingField: 
-  <bestScore>k__BackingField: 0
-  <currPlayer>k__BackingField: 
-  <currScore>k__BackingField: 0
-  path: 
 --- !u!1 &48582139
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,7 +236,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Simple Cue Ball
+  m_Text: Simple Pinball
 --- !u!222 &48582142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -830,8 +825,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2da316894cb5642914436fb553ea8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bestScoreText: {fileID: 0}
-  nameInputField: {fileID: 0}
+  bestScoreText: {fileID: 1904335263}
+  nameInputField: {fileID: 1760094286}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +962,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9fcf46d76c2df6846a0c4f391fc09210, type: 2}
+  - {fileID: 2100000, guid: 3e0ad9e4076a10c4e82f61f6732f6b4b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
